@@ -1,0 +1,1684 @@
+﻿[ +172 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [C:\src\flutter_windows_3.7.7-stable\flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[ +117 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-01-08 10:49:17 -0800
+[  +27 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +59 ms] executing: C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe devices -l
+[  +96 ms] List of devices attached
+           RFCRA0S6RWZ            device product:m52xqins model:SM_M526B device:m52xq transport_id:3
+[   +4 ms] C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -s RFCRA0S6RWZ shell getprop
+[  +98 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +95 ms] executing: [C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter/] C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\dart-sdk\bin\dart pub --suppress-analytics --directory . get --example
+Resolving dependencies...
+Downloading packages...
+  characters 1.4.0 (1.4.1 available)
+  flutter_markdown 0.7.7+1 (discontinued replaced by flutter_markdown_plus)
+  flutter_riverpod 2.6.1 (3.3.1 available)
+  hooks 1.0.1 (1.0.2 available)
+  js 0.6.7 (0.7.2 available)
+  matcher 0.12.17 (0.12.19 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  native_toolchain_c 0.17.4 (0.17.5 available)
+  riverpod 2.6.1 (3.2.1 available)
+  test_api 0.7.7 (0.7.10 available)
+Got dependencies!
+1 package is discontinued.
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+[ +526 ms] Found plugin window_manager at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\window_manager-0.5.1\
+[   +6 ms] Found plugin screen_retriever at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever-0.2.0\
+[   +1 ms] Found plugin screen_retriever_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_windows-0.2.0\
+[   +6 ms] Found plugin screen_retriever_macos at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_macos-0.2.0\
+[   +1 ms] Found plugin screen_retriever_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_linux-0.2.0\
+[   +2 ms] Found plugin path_provider at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +2 ms] Found plugin path_provider_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +6 ms] Found plugin path_provider_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +3 ms] Found plugin path_provider_foundation at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[  +22 ms] Found plugin path_provider_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +3 ms] Found plugin isar_community_flutter_libs at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\isar_community_flutter_libs-3.3.0\
+[ +100 ms] Found plugin window_manager at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\window_manager-0.5.1\
+[   +2 ms] Found plugin screen_retriever at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever-0.2.0\
+[   +1 ms] Found plugin screen_retriever_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_windows-0.2.0\
+[   +5 ms] Found plugin screen_retriever_macos at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_macos-0.2.0\
+[   +2 ms] Found plugin screen_retriever_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_linux-0.2.0\
+[   +2 ms] Found plugin path_provider at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +2 ms] Found plugin path_provider_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +6 ms] Found plugin path_provider_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +3 ms] Found plugin path_provider_foundation at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[  +16 ms] Found plugin path_provider_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +2 ms] Found plugin isar_community_flutter_libs at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\isar_community_flutter_libs-3.3.0\
+[  +22 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +27 ms] Found plugin window_manager at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\window_manager-0.5.1\
+[   +1 ms] Found plugin screen_retriever at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever-0.2.0\
+[   +1 ms] Found plugin screen_retriever_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_windows-0.2.0\
+[   +3 ms] Found plugin screen_retriever_macos at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_macos-0.2.0\
+[   +1 ms] Found plugin screen_retriever_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_linux-0.2.0\
+[   +1 ms] Found plugin path_provider at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +1 ms] Found plugin path_provider_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +4 ms] Found plugin path_provider_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +2 ms] Found plugin path_provider_foundation at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[  +14 ms] Found plugin path_provider_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +1 ms] Found plugin isar_community_flutter_libs at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\isar_community_flutter_libs-3.3.0\
+[  +17 ms] Generating C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[   +6 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +4 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[  +73 ms] ro.hardware = qcom
+[ +178 ms] Initializing file store
+[  +69 ms] Skipping target: gen_localizations
+[   +4 ms] gen_dart_plugin_registrant: Starting due to {InvalidatedReasonKind.inputChanged: The following inputs have updated contents: C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\package_config.json,C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\flutter_build\dart_plugin_registrant.dart}
+[  +95 ms] Found plugin window_manager at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\window_manager-0.5.1\
+[   +1 ms] Found plugin screen_retriever at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever-0.2.0\
+[   +1 ms] Found plugin screen_retriever_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_windows-0.2.0\
+[   +4 ms] Found plugin screen_retriever_macos at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_macos-0.2.0\
+[   +1 ms] Found plugin screen_retriever_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever_linux-0.2.0\
+[   +1 ms] Found plugin path_provider at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +1 ms] Found plugin path_provider_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +3 ms] Found plugin path_provider_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +1 ms] Found plugin path_provider_foundation at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[  +50 ms] Found plugin path_provider_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +1 ms] Found plugin isar_community_flutter_libs at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\isar_community_flutter_libs-3.3.0\
+[  +17 ms] Skipping generating dart_plugin_registrant.dart because it is up-to-date.
+[        ] gen_dart_plugin_registrant: Complete
+[   +2 ms] Skipping target: _composite
+[   +1 ms] complete
+[   +4 ms] Launching lib\main.dart on SM M526B in debug mode...
+[   +3 ms] C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\dart-sdk\bin\dartaotruntime.exe C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\dart-sdk\bin\snapshots\frontend_server_aot.dart.snapshot --sdk-root C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\artifacts\engine\common\flutter_patched_sdk/ --incremental --target=flutter --experimental-emit-debug-metadata -DFLUTTER_VERSION=3.38.6 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=8b87286849 -DFLUTTER_ENGINE_REVISION=78fc3012e4 -DFLUTTER_DART_VERSION=3.10.7 --output-dill C:\Users\User\AppData\Local\Temp\flutter_tools.2b35248\flutter_tool.65ce59d8\app.dill --packages C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\package_config.json -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --filesystem-scheme org-dartlang-root --initialize-from-dill build\3db25abb13e29dfd86c6b9b67f5bf79a.cache.dill.track.dill --source file:///C:/Projects/Complex%20Systems/FlowState-Note-Workflow-And-Knowledge%20Pipeline-Managment-Cross-Platform-System-Flutter/.dart_tool/flutter_build/dart_plugin_registrant.dart --source package:flutter/src/dart_plugin_registrant.dart -Dflutter.dart_plugin_registrant=file:///C:/Projects/Complex%20Systems/FlowState-Note-Workflow-And-Knowledge%20Pipeline-Managment-Cross-Platform-System-Flutter/.dart_tool/flutter_build/dart_plugin_registrant.dart --verbosity=error --enable-experiment=alternative-invalidation-strategy
+[   +9 ms] executing: C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -s RFCRA0S6RWZ shell -x logcat -v time -t 1
+[ +120 ms] <- compile package:flow_state/main.dart
+[ +504 ms] Error: Couldn't resolve the package 'flux_state' in 'package:flux_state/features/notes/models/note.dart'.
+[        ] lib/features/notes/providers/web_notes_repository.dart:7:8: Error: Error when reading 'lib/core/data_structures/flow_linked_list.dart': The system cannot find the file specified
+[        ] import 'package:flow_state/core/data_structures/flow_linked_list.dart';
+[        ]        ^
+[        ] lib/main_native.dart:14:8: Error: Error when reading 'lib/core/data_structures/flow_linked_list.dart': The system cannot find the file specified
+[        ] import 'package:flow_state/core/data_structures/flow_linked_list.dart';
+[        ]        ^
+[ +188 ms] --------- beginning of main
+           03-15 09:19:12.188 I/bauth_FPBAuthService( 1750): FPBAuthService, 11511
+[  +12 ms] executing: C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe version
+[  +62 ms] lib/core/algorithms/sorting.dart:1:8: Error: Not found: 'package:flux_state/features/notes/models/note.dart'
+[        ] import 'package:flux_state/features/notes/models/note.dart';
+[        ]        ^
+[  +22 ms] Android Debug Bridge version 1.0.41
+           Version 34.0.5-10900879
+           Installed as C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe
+           Running on Windows 10.0.26200
+[   +1 ms] executing: C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe start-server
+[  +64 ms] Building APK
+[ +131 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +212 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +2 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +169 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +8 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +3 ms] executing: C:\Program Files\Java\jdk-17\bin\java --version
+[ +142 ms] Exit code 0 from: C:\Program Files\Java\jdk-17\bin\java --version
+[        ] java 17.0.17 2025-10-21 LTS
+           Java(TM) SE Runtime Environment (build 17.0.17+8-LTS-360)
+           Java HotSpot(TM) 64-Bit Server VM (build 17.0.17+8-LTS-360, mixed mode, sharing)
+[  +25 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +6 ms] Using gradle from C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\gradlew.bat.
+[  +15 ms] LocalFile: 'C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +3 ms] LocalFile: 'C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\settings.gradle.kts' provides AGP version: 8.11.1
+[  +33 ms] Running Gradle task 'assembleDebug'...
+[   +1 ms] executing: [C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android/] C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm64 -Ptarget=C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzguNg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049OGI4NzI4Njg0OQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NzhmYzMwMTJlNA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC43 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Pfilesystem-scheme=org-dartlang-root assembleDebug
+[ +712 ms] lib/features/notes/providers/web_notes_repository.dart:201:3: Error: Type 'FlowLinkedList' not found.
+[        ]   FlowLinkedList<Note> getStreamAsLinkedList(List<Note> notes) {
+[        ]   ^^^^^^^^^^^^^^
+[        ] lib/main_native.dart:186:3: Error: Type 'FlowLinkedList' not found.
+[        ]   FlowLinkedList<Note> getStreamAsLinkedList(List<Note> notes) {
+[        ]   ^^^^^^^^^^^^^^
+[  +11 ms] lib/core/algorithms/sorting.dart:6:15: Error: Type 'Note' not found.
+[        ]   static List<Note> sort(List<Note> notes) {
+[        ]               ^^^^
+[        ] lib/core/algorithms/sorting.dart:6:31: Error: Type 'Note' not found.
+[        ]   static List<Note> sort(List<Note> notes) {
+[        ]                               ^^^^
+[        ] lib/core/algorithms/sorting.dart:16:15: Error: Type 'Note' not found.
+[        ]   static List<Note> _merge(List<Note> left, List<Note> right) {
+[        ]               ^^^^
+[        ] lib/core/algorithms/sorting.dart:16:33: Error: Type 'Note' not found.
+[        ]   static List<Note> _merge(List<Note> left, List<Note> right) {
+[        ]                                 ^^^^
+[        ] lib/core/algorithms/sorting.dart:16:50: Error: Type 'Note' not found.
+[        ]   static List<Note> _merge(List<Note> left, List<Note> right) {
+[        ]                                                  ^^^^
+[        ] lib/core/algorithms/sorting.dart:36:23: Error: Type 'Note' not found.
+[        ]   static int _compare(Note a, Note b) {
+[        ]                       ^^^^
+[        ] lib/core/algorithms/sorting.dart:36:31: Error: Type 'Note' not found.
+[        ]   static int _compare(Note a, Note b) {
+[        ]                               ^^^^
+[ +473 ms] Initialized native services in: C:\Users\User\.gradle\native
+[   +1 ms] Initialized jansi services in: C:\Users\User\.gradle\native
+[ +640 ms] Found daemon DaemonInfo{pid=9036, address=[7418650a-6d13-47fe-9006-f41432f39a91 port:4810, addresses:[/127.0.0.1]], state=Idle, lastBusy=1768323921762, context=DefaultDaemonContext[uid=1247455e-1687-4cca-8866-e37d1fbe02ed,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=9036,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] JVM is incompatible.
+[   +1 ms] Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-17 (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=1247455e-1687-4cca-8866-e37d1fbe02ed,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=9036,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[        ] Found daemon DaemonInfo{pid=30748, address=[f1c34720-d906-4cc7-971f-0023f0a35ca9 port:13074, addresses:[/127.0.0.1]], state=Idle, lastBusy=1771520995372, context=DefaultDaemonContext[uid=1e231910-b512-4a2c-867c-3c3e11c59768,javaHome=C:\Program Files\Java\jdk-22,javaVersion=22,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=30748,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] JVM is incompatible.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-17 (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=1e231910-b512-4a2c-867c-3c3e11c59768,javaHome=C:\Program Files\Java\jdk-22,javaVersion=22,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=30748,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[        ] Found daemon DaemonInfo{pid=13540, address=[329b6288-5ecf-41df-8308-65af556308b3 port:1399, addresses:[/127.0.0.1]], state=Idle, lastBusy=1772884509603, context=DefaultDaemonContext[uid=e2e22a77-bcfe-47bb-ae0c-c1593194b7cb,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=13540,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] At least one daemon option is different.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-17 (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=e2e22a77-bcfe-47bb-ae0c-c1593194b7cb,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=13540,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[        ] Found daemon DaemonInfo{pid=12312, address=[00814e96-fc65-490c-9852-88c509d88193 port:1707, addresses:[/127.0.0.1]], state=Idle, lastBusy=1773544852825, context=DefaultDaemonContext[uid=2e2497a7-a8d1-4c02-9037-b0616bc20ffe,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=12312,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] At least one daemon option is different.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-17 (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=2e2497a7-a8d1-4c02-9037-b0616bc20ffe,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=12312,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[  +99 ms] The client will now receive all logging from the daemon (pid: 5896). The daemon log file: C:\Users\User\.gradle\daemon\8.14\daemon-5896.out.log
+[        ] Starting 5th build in daemon [uptime: 8 mins 55.983 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 4% of 4 GiB]
+[        ] Using 8 worker leases.
+[  +93 ms] Now considering [C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android, C:\src\flutter_windows_3.7.7-stable\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering [C:\src\flutter_windows_3.7.7-stable\flutter\packages\flutter_tools\gradle, C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android] as hierarchies to watch
+[ +314 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file 'C:\src\flutter_windows_3.7.7-stable\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory 'C:\src\flutter_windows_3.7.7-stable\flutter\packages\flutter_tools\gradle\src\main\java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+[  +85 ms] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[included builds,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[Execution worker,5,main]) started.
+[  +92 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[Execution worker,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[Execution worker,5,main]) started.
+[        ] :gradle:processResources (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[Execution worker,5,main]) started.
+[        ] :gradle:classes (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[Execution worker,5,main]) started.
+[        ] :gradle:jar (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[ +190 ms] lib/features/notes/providers/web_notes_repository.dart:202:18: Error: The method 'FlowLinkedList' isn't defined for the type 'WebNotesRepository'.
+[        ]  - 'WebNotesRepository' is from 'package:flow_state/features/notes/providers/web_notes_repository.dart' ('lib/features/notes/providers/web_notes_repository.dart').
+[        ] Try correcting the name to the name of an existing method, or defining a method named 'FlowLinkedList'.
+[        ]     final list = FlowLinkedList<Note>();
+[        ]                  ^^^^^^^^^^^^^^
+[  +13 ms] lib/main_native.dart:187:18: Error: The method 'FlowLinkedList' isn't defined for the type 'IsarNotesRepository'.
+[        ]  - 'IsarNotesRepository' is from 'package:flow_state/main_native.dart' ('lib/main_native.dart').
+[        ] Try correcting the name to the name of an existing method, or defining a method named 'FlowLinkedList'.
+[        ]     final list = FlowLinkedList<Note>();
+[        ]                  ^^^^^^^^^^^^^^
+[  +92 ms] Settings evaluated using settings file 'C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file 'C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':isar_community_flutter_libs', project ':path_provider_android']
+[ +497 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file 'C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\app\build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build ae160d1a-193e-44aa-82fe-73f08d5e9113 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[   +2 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\User\AppData\Local\Android\Sdk
+[        ] > Configure project :
+[   +1 ms] Evaluating root project 'android' using build file 'C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\android\build.gradle.kts'.
+[ +190 ms] > Configure project :isar_community_flutter_libs
+[   +2 ms] Evaluating project ':isar_community_flutter_libs' using build file 'C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\isar_community_flutter_libs-3.3.0\android\build.gradle'.
+[        ] Using default execution profile
+[ +293 ms] > Configure project :path_provider_android
+[   +1 ms] Evaluating project ':path_provider_android' using build file 'C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\android\build.gradle'.
+[        ] Using default execution profile
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleDebug'
+[   +5 ms] Selected primary task 'assembleDebug' from project :
+[  +12 ms] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[ +174 ms] Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:compileFlutterBuildDebug', task ':app:packJniLibsflutterBuildDebug', task ':isar_community_flutter_libs:preBuild', task ':isar_community_flutter_libs:preDebugBuild', task ':isar_community_flutter_libs:writeDebugAarMetadata', task ':path_provider_android:preBuild', task ':path_provider_android:preDebugBuild', task ':path_provider_android:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':isar_community_flutter_libs:mergeDebugShaders', task ':isar_community_flutter_libs:compileDebugShaders', task ':isar_community_flutter_libs:generateDebugAssets', task ':isar_community_flutter_libs:mergeDebugAssets', task ':path_provider_android:mergeDebugShaders', task ':path_provider_android:compileDebugShaders', task ':path_provider_android:generateDebugAssets', task ':path_provider_android:mergeDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':isar_community_flutter_libs:generateDebugResValues', task ':isar_community_flutter_libs:generateDebugResources', task ':isar_community_flutter_libs:packageDebugResources', task ':path_provider_android:generateDebugResValues', task ':path_provider_android:generateDebugResources', task ':path_provider_android:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':isar_community_flutter_libs:extractDeepLinksDebug', task ':isar_community_flutter_libs:processDebugManifest', task ':path_provider_android:extractDeepLinksDebug', task ':path_provider_android:processDebugManifest', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':isar_community_flutter_libs:compileDebugLibraryResources', task ':isar_community_flutter_libs:parseDebugLocalResources', task ':isar_community_flutter_libs:generateDebugRFile', task ':path_provider_android:compileDebugLibraryResources', task ':path_provider_android:parseDebugLocalResources', task ':path_provider_android:generateDebugRFile', task ':app:processDebugResources', task ':isar_community_flutter_libs:javaPreCompileDebug', task ':isar_community_flutter_libs:compileDebugJavaWithJavac', task ':isar_community_flutter_libs:bundleLibCompileToJarDebug', task ':path_provider_android:javaPreCompileDebug', task ':path_provider_android:compileDebugJavaWithJavac', task ':path_provider_android:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':isar_community_flutter_libs:bundleLibRuntimeToJarDebug', task ':path_provider_android:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':isar_community_flutter_libs:processDebugJavaRes', task ':path_provider_android:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':isar_community_flutter_libs:bundleLibRuntimeToDirDebug', task ':path_provider_android:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:mergeDebugJniLibFolders', task ':isar_community_flutter_libs:mergeDebugJniLibFolders', task ':isar_community_flutter_libs:mergeDebugNativeLibs', task ':isar_community_flutter_libs:copyDebugJniLibsProjectOnly', task ':path_provider_android:mergeDebugJniLibFolders', task ':path_provider_android:mergeDebugNativeLibs', task ':path_provider_android:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':isar_community_flutter_libs:stripDebugDebugSymbols', task ':isar_community_flutter_libs:copyDebugJniLibsProjectAndLocalJars', task ':isar_community_flutter_libs:extractDebugAnnotations', task ':isar_community_flutter_libs:extractDeepLinksForAarDebug', task ':isar_community_flutter_libs:mergeDebugGeneratedProguardFiles', task ':isar_community_flutter_libs:mergeDebugConsumerProguardFiles', task ':isar_community_flutter_libs:prepareDebugArtProfile', task ':isar_community_flutter_libs:prepareLintJarForPublish', task ':isar_community_flutter_libs:mergeDebugJavaResource', task ':isar_community_flutter_libs:syncDebugLibJars', task ':isar_community_flutter_libs:bundleDebugAar', task ':isar_community_flutter_libs:assembleDebug', task ':path_provider_android:stripDebugDebugSymbols', task ':path_provider_android:copyDebugJniLibsProjectAndLocalJars', task ':path_provider_android:extractDebugAnnotations', task ':path_provider_android:extractDeepLinksForAarDebug', task ':path_provider_android:mergeDebugGeneratedProguardFiles', task ':path_provider_android:mergeDebugConsumerProguardFiles', task ':path_provider_android:prepareDebugArtProfile', task ':path_provider_android:prepareLintJarForPublish', task ':path_provider_android:mergeDebugJavaResource', task ':path_provider_android:syncDebugLibJars', task ':path_provider_android:bundleDebugAar', task ':path_provider_android:assembleDebug']
+[   +1 ms] Tasks that were excluded: []
+[  +89 ms] work action Parameters of IdentityTransform (Thread[Execution worker Thread 3,5,main]) started.
+[        ] work action Parameters of DexingNoClasspathTransform (Thread[Execution worker Thread 3,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[Execution worker Thread 3,5,main]) started.
+[        ] work action Parameters of ClassesDirToClassesTransform (Thread[Execution worker Thread 3,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :app:DebugMinSdkCheck (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:DebugMinSdkCheck (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:DebugMinSdkCheck
+[        ] Caching disabled for task ':app:DebugMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:DebugMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:preBuild (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:preBuild (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:preDebugBuild (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':app:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[        ] Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :app:compileFlutterBuildDebug (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:compileFlutterBuildDebug (Thread[Execution worker Thread 3,5,main]) started.
+[ +297 ms] lib/core/algorithms/sorting.dart:6:31: Error: 'Note' isn't a type.
+[        ]   static List<Note> sort(List<Note> notes) {
+[        ]                               ^^^^
+[        ] lib/core/algorithms/sorting.dart:10:10: Error: 'Note' isn't a type.
+[        ]     List<Note> left = sort(notes.sublist(0, mid));
+[        ]          ^^^^
+[        ] lib/core/algorithms/sorting.dart:11:10: Error: 'Note' isn't a type.
+[        ]     List<Note> right = sort(notes.sublist(mid));
+[        ]          ^^^^
+[        ] lib/core/algorithms/sorting.dart:16:33: Error: 'Note' isn't a type.
+[        ]   static List<Note> _merge(List<Note> left, List<Note> right) {
+[        ]                                 ^^^^
+[        ] lib/core/algorithms/sorting.dart:16:50: Error: 'Note' isn't a type.
+[        ]   static List<Note> _merge(List<Note> left, List<Note> right) {
+[        ]                                                  ^^^^
+[        ] lib/core/algorithms/sorting.dart:17:10: Error: 'Note' isn't a type.
+[        ]     List<Note> result = [];
+[        ]          ^^^^
+[        ] lib/core/algorithms/sorting.dart:36:23: Error: 'Note' isn't a type.
+[        ]   static int _compare(Note a, Note b) {
+[        ]                       ^^^^
+[        ] lib/core/algorithms/sorting.dart:36:31: Error: 'Note' isn't a type.
+[        ]   static int _compare(Note a, Note b) {
+[        ]                               ^^^^
+[+1696 ms] > Task :app:compileFlutterBuildDebug
+[        ] Caching disabled for task ':app:compileFlutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+[        ]   Task has failed previously.
+[        ] Starting process 'command 'C:\src\flutter_windows_3.7.7-stable\flutter\bin\flutter.bat''. Working directory: C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter Command: C:\src\flutter_windows_3.7.7-stable\flutter\bin\flutter.bat --verbose assemble --no-version-check --depfile C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\build\app\intermediates\flutter\debug/flutter_build.d --output C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\build\app\intermediates\flutter\debug -dTargetFile=C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\lib\main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuMzguNg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049OGI4NzI4Njg0OQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NzhmYzMwMTJlNA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC43 -dFlavor= -dAndroidArchs=android-arm64 -dMinSdkVersion=24 debug_android_application
+[        ] Successfully started process 'command 'C:\src\flutter_windows_3.7.7-stable\flutter\bin\flutter.bat''
+[        ] [ +265 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +4 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +21 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +5 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +98 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [  +16 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +77 ms] [  +74 ms] Initializing file store
+[        ] [   +2 ms] Done initializing file store
+flutter : [   +1 ms] [  +19 ms] 
+Invalid depfile: C:\Projects\Complex 
+Systems\FlowState-Note-Workflow-And-K
+nowledge Pipeline-Managment-Cross-Pla
+tform-System-Flutter\.dart_tool\flutt
+er_build\53e283b7797a82f323b75abbb3b1
+39d7\kernel_snapshot_program.d
+At line:1 char:1
++ flutter run -d RFCRA0S6RWZ 
+--verbose 2>&1 | Out-File -FilePath 
+verbos ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo          : NotSpe 
+   cified: ([   +1 ms] [  +...pshot  
+  _program.d:String) [], RemoteExc   
+ eption
+    + FullyQualifiedErrorId : Native 
+   CommandError
+ 
+[   +1 ms] [   +2 ms] Invalid 
+depfile: C:\Projects\Complex Systems\
+FlowState-Note-Workflow-And-Knowledge
+ Pipeline-Managment-Cross-Platform-Sy
+stem-Flutter\.dart_tool\flutter_build
+\53e283b7797a82f323b75abbb3b139d7\ker
+nel_snapshot_program.d
+[ +104 ms] [  +32 ms] Skipping target: dart_build
+[        ] [   +2 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [   +2 ms] Skipping target: install_code_assets
+[        ] [        ] Skipping target: gen_localizations
+[        ] [   +6 ms] kernel_snapshot_program: Starting due to {InvalidatedReasonKind.outputSetAddition: The following outputs were added to the output set: C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\flutter_build\53e283b7797a82f323b75abbb3b139d7\app.dill, InvalidatedReasonKind.inputChanged: The following inputs have updated contents: C:\src\flutter_windows_3.7.7-stable\flutter\packages\flutter_tools\lib\src\build_system\targets\common.dart,C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\engine.stamp,C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\engine.stamp,C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\engine.stamp,C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\engine.stamp}
+[        ] [  +20 ms] C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\dart-sdk\bin\dartaotruntime.exe C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\dart-sdk\bin\snapshots\frontend_server_aot.dart.snapshot --sdk-root C:\src\flutter_windows_3.7.7-stable\flutter\bin\cache\artifacts\engine\common\flutter_patched_sdk/ --target=flutter --no-print-incremental-dependencies -DFLUTTER_VERSION=3.38.6 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=8b87286849 -DFLUTTER_ENGINE_REVISION=78fc3012e4 -DFLUTTER_DART_VERSION=3.10.7 -DFLUTTER_APP_FLAVOR= -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --no-link-platform --packages C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\package_config.json --output-dill C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\flutter_build\53e283b7797a82f323b75abbb3b139d7\app.dill --depfile C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\flutter_build\53e283b7797a82f323b75abbb3b139d7\kernel_snapshot_program.d --incremental --initialize-from-dill C:\Projects\Complex Systems\FlowState-Note-Workflow-And-Knowledge Pipeline-Managment-Cross-Platform-System-Flutter\.dart_tool\flutter_build\53e283b7797a82f323b75abbb3b139d7\app.dill --source file:///C:/Projects/Complex%20Systems/FlowState-Note-Workflow-And-Knowledge%20Pipeline-Managment-Cross-Platform-System-Flutter/.dart_tool/flutter_build/dart_plugin_registrant.dart --source package:flutter/src/dart_plugin_registrant.dart -Dflutter.dart_plugin_registrant=file:///C:/Projects/Complex%20Systems/FlowState-Note-Workflow-And-Knowledge%20Pipeline-Managment-Cross-Platform-System-Flutter/.dart_tool/flutter_build/dart_plugin_registrant.dart --verbosity=error package:flow_state/main.dart
+[+3293 ms] [+3314 ms] Error: 
+Couldn't resolve the package 
+'flux_state' in 'package:flux_state/f
+eatures/notes/models/note.dart'.
+[        ] [        ] lib/features/no
+tes/providers/web_notes_repository.da
+rt:7:8: Error: Error when reading 'li
+b/core/data_structures/flow_linked_li
+st.dart': The system cannot find the 
+file specified
+[        ] [        ] import 'package
+:flow_state/core/data_structures/flow
+_linked_list.dart';
+[        ] [        ]        ^
+[        ] [        ] 
+lib/main_native.dart:14:8: Error: 
+Error when reading 'lib/core/data_str
+uctures/flow_linked_list.dart': The 
+system cannot find the file specified
+[        ] [        ] import 'package
+:flow_state/core/data_structures/flow
+_linked_list.dart';
+[        ] [        ]        ^
+[ +400 ms] [ +353 ms] lib/core/algori
+thms/sorting.dart:1:8: Error: Not 
+found: 'package:flux_state/features/n
+otes/models/note.dart'
+[        ] [        ] import 'package
+:flux_state/features/notes/models/not
+e.dart';
+[        ] [        ]        ^
+[+1506 ms] [+1510 ms] lib/features/no
+tes/providers/web_notes_repository.da
+rt:201:3: Error: Type 
+'FlowLinkedList' not found.
+[        ] [        ]   
+FlowLinkedList<Note> 
+getStreamAsLinkedList(List<Note> 
+notes) {
+[        ] [        ]   
+^^^^^^^^^^^^^^
+[        ] [        ] 
+lib/main_native.dart:186:3: Error: 
+Type 'FlowLinkedList' not found.
+[        ] [        ]   
+FlowLinkedList<Note> 
+getStreamAsLinkedList(List<Note> 
+notes) {
+[        ] [        ]   
+^^^^^^^^^^^^^^
+[        ] [   +6 ms] lib/core/algori
+thms/sorting.dart:6:15: Error: Type 
+'Note' not found.
+[        ] [        ]   static 
+List<Note> sort(List<Note> notes) {
+[        ] [        ]               
+^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:6:31: Error: Type 
+'Note' not found.
+[        ] [        ]   static 
+List<Note> sort(List<Note> notes) {
+[        ] [        ]                
+               ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:16:15: Error: Type 
+'Note' not found.
+[        ] [        ]   static 
+List<Note> _merge(List<Note> left, 
+List<Note> right) {
+[        ] [        ]               
+^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:16:33: Error: Type 
+'Note' not found.
+[        ] [        ]   static 
+List<Note> _merge(List<Note> left, 
+List<Note> right) {
+[        ] [        ]                
+                 ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:16:50: Error: Type 
+'Note' not found.
+[        ] [        ]   static 
+List<Note> _merge(List<Note> left, 
+List<Note> right) {
+[        ] [        ]                
+                                  
+^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:36:23: Error: Type 
+'Note' not found.
+[        ] [        ]   static int 
+_compare(Note a, Note b) {
+[        ] [        ]                
+       ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:36:31: Error: Type 
+'Note' not found.
+[        ] [        ]   static int 
+_compare(Note a, Note b) {
+[        ] [        ]                
+               ^^^^
+[+2093 ms] [+2132 ms] lib/features/no
+tes/providers/web_notes_repository.da
+rt:202:18: Error: The method 
+'FlowLinkedList' isn't defined for 
+the type 'WebNotesRepository'.
+[        ] [        ]  - 
+'WebNotesRepository' is from 'package
+:flow_state/features/notes/providers/
+web_notes_repository.dart' ('lib/feat
+ures/notes/providers/web_notes_reposi
+tory.dart').
+[        ] [        ] Try correcting 
+the name to the name of an existing 
+method, or defining a method named 
+'FlowLinkedList'.
+[        ] [        ]     final list 
+= FlowLinkedList<Note>();
+[        ] [        ]                
+  ^^^^^^^^^^^^^^
+[        ] [  +10 ms] 
+lib/main_native.dart:187:18: Error: 
+The method 'FlowLinkedList' isn't 
+defined for the type 
+'IsarNotesRepository'.
+[        ] [        ]  - 
+'IsarNotesRepository' is from 'packag
+e:flow_state/main_native.dart' 
+('lib/main_native.dart').
+[        ] [        ] Try correcting 
+the name to the name of an existing 
+method, or defining a method named 
+'FlowLinkedList'.
+[        ] [        ]     final list 
+= FlowLinkedList<Note>();
+[        ] [        ]                
+  ^^^^^^^^^^^^^^
+[ +996 ms] [ +941 ms] lib/core/algori
+thms/sorting.dart:6:31: Error: 
+'Note' isn't a type.
+[        ] [        ]   static 
+List<Note> sort(List<Note> notes) {
+[        ] [        ]                
+               ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:10:10: Error: 
+'Note' isn't a type.
+[        ] [        ]     List<Note> 
+left = sort(notes.sublist(0, mid));
+[        ] [        ]          ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:11:10: Error: 
+'Note' isn't a type.
+[        ] [        ]     List<Note> 
+right = sort(notes.sublist(mid));
+[        ] [        ]          ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:16:33: Error: 
+'Note' isn't a type.
+[        ] [        ]   static 
+List<Note> _merge(List<Note> left, 
+List<Note> right) {
+[        ] [        ]                
+                 ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:16:50: Error: 
+'Note' isn't a type.
+[        ] [        ]   static 
+List<Note> _merge(List<Note> left, 
+List<Note> right) {
+[        ] [        ]                
+                                  
+^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:17:10: Error: 
+'Note' isn't a type.
+[        ] [        ]     List<Note> 
+result = [];
+[        ] [        ]          ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:36:23: Error: 
+'Note' isn't a type.
+[        ] [        ]   static int 
+_compare(Note a, Note b) {
+[        ] [        ]                
+       ^^^^
+[        ] [        ] lib/core/algori
+thms/sorting.dart:36:31: Error: 
+'Note' isn't a type.
+[        ] [        ]   static int 
+_compare(Note a, Note b) {
+[        ] [        ]                
+               ^^^^
+[+6786 ms] [+6879 ms] Unhandled 
+exception:
+[        ]            FileSystemExcep
+tion(uri=org-dartlang-untranslatable-
+uri:package%3Aflux_state%2Ffeatures%2
+Fnotes%2Fmodels%2Fnote.dart; 
+message=StandardFileSystem only 
+supports file:* and data:* URIs)
+[        ]            #0      
+StandardFileSystem.entityForUri (pack
+age:front_end/src/api_prototype/stand
+ard_file_system.dart:45)
+[        ]            #1      
+asFileUri (package:vm/kernel_front_en
+d.dart:1008)
+[        ]            #2      
+writeDepfile (package:vm/kernel_front
+_end.dart:1171)
+[        ]            <asynchronous 
+suspension>
+[        ]            #3      
+FrontendCompiler.compile (package:fro
+ntend_server/frontend_server.dart:738
+)
+[        ]            <asynchronous 
+suspension>
+[        ]            #4      
+starter (package:frontend_server/star
+ter.dart:102)
+[        ]            <asynchronous 
+suspension>
+[        ]            #5      main (f
+ile:///C:/b/s/w/ir/x/w/sdk/pkg/fronte
+nd_server/bin/frontend_server_starter
+.dart:13)
+[        ]            <asynchronous 
+suspension>
+[ +201 ms] [ +120 ms] Persisting file store
+[        ] [   +2 ms] Done persisting file store
+[        ] [   +6 ms] Target 
+kernel_snapshot_program failed: 
+Exception
+[        ]            #0      
+KernelSnapshot.build (package:flutter
+_tools/src/build_system/targets/commo
+n.dart:289:7)
+[        ]            <asynchronous 
+suspension>
+[        ]            #1      
+_BuildInstance._invokeInternal (packa
+ge:flutter_tools/src/build_system/bui
+ld_system.dart:895:9)
+[        ]            <asynchronous 
+suspension>
+[        ]            #2      
+Future.wait.<anonymous closure> 
+(dart:async/future.dart:546:21)
+[        ]            <asynchronous 
+suspension>
+[        ]            #3      
+_BuildInstance.invokeTarget (package:
+flutter_tools/src/build_system/build_
+system.dart:833:32)
+[        ]            <asynchronous 
+suspension>
+[        ]            #4      
+FlutterBuildSystem.build (package:flu
+tter_tools/src/build_system/build_sys
+tem.dart:653:16)
+[        ]            <asynchronous 
+suspension>
+[        ]            #5      
+AssembleCommand.runCommand (package:f
+lutter_tools/src/commands/assemble.da
+rt:361:32)
+[        ]            <asynchronous 
+suspension>
+[        ]            #6      
+FlutterCommand.run.<anonymous 
+closure> (package:flutter_tools/src/r
+unner/flutter_command.dart:1559:27)
+[        ]            <asynchronous 
+suspension>
+[        ]            #7      
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+[        ]            <asynchronous 
+suspension>
+[        ]            #8      
+CommandRunner.runCommand (package:arg
+s/command_runner.dart:212:13)
+[        ]            <asynchronous 
+suspension>
+[        ]            #9      Flutter
+CommandRunner.runCommand.<anonymous 
+closure> (package:flutter_tools/src/r
+unner/flutter_command_runner.dart:487
+:9)
+[        ]            <asynchronous 
+suspension>
+[        ]            #10     
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+[        ]            <asynchronous 
+suspension>
+[        ]            #11     
+FlutterCommandRunner.runCommand (pack
+age:flutter_tools/src/runner/flutter_
+command_runner.dart:422:5)
+[        ]            <asynchronous 
+suspension>
+[ +104 ms]            #12     
+run.<anonymous closure>.<anonymous 
+closure> (package:flutter_tools/runne
+r.dart:104:11)
+[        ]            <asynchronous 
+suspension>
+[        ]            #13     
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+[        ]            <asynchronous 
+suspension>
+[        ]            #14     main (p
+ackage:flutter_tools/executable.dart:
+103:3)
+[        ]            <asynchronous 
+suspension>
+[        ] [ +166 ms] "flutter assemble" took 15,666ms.
+[ +389 ms] [ +372 ms] 
+[        ]            #0      
+throwToolExit (package:flutter_tools/
+src/base/common.dart:34:3)
+[        ]            #1      
+AssembleCommand.runCommand (package:f
+lutter_tools/src/commands/assemble.da
+rt:379:7)
+[        ]            <asynchronous 
+suspension>
+[        ]            #2      
+FlutterCommand.run.<anonymous 
+closure> (package:flutter_tools/src/r
+unner/flutter_command.dart:1559:27)
+[        ]            <asynchronous 
+suspension>
+[        ]            #3      
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+[        ]            <asynchronous 
+suspension>
+[        ]            #4      
+CommandRunner.runCommand (package:arg
+s/command_runner.dart:212:13)
+[        ]            <asynchronous 
+suspension>
+[        ]            #5      Flutter
+CommandRunner.runCommand.<anonymous 
+closure> (package:flutter_tools/src/r
+unner/flutter_command_runner.dart:487
+:9)
+[        ]            <asynchronous 
+suspension>
+[        ]            #6      
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+[        ]            <asynchronous 
+suspension>
+[        ] [        ] Running 1 shutdown hook
+[        ] [   +1 ms] Shutdown hooks complete
+[        ]            #7      
+FlutterCommandRunner.runCommand (pack
+age:flutter_tools/src/runner/flutter_
+command_runner.dart:422:5)
+[        ]            <asynchronous 
+suspension>
+[        ]            #8      
+run.<anonymous closure>.<anonymous 
+closure> (package:flutter_tools/runne
+r.dart:104:11)
+[        ]            <asynchronous 
+suspension>
+[        ]            #9      
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+[        ]            <asynchronous 
+suspension>
+[        ]            #10     main (p
+ackage:flutter_tools/executable.dart:
+103:3)
+[        ]            <asynchronous 
+suspension>
+[ +199 ms] [ +154 ms] exiting with code 1
+[ +107 ms] > Task :app:compileFlutterBuildDebug FAILED
+[ +186 ms] Build ae160d1a-193e-44aa-82fe-73f08d5e9113 is closed
+[        ] [Incubating] Problems report is available at: file:///C:/Projects/Complex%20Systems/FlowState-Note-Workflow-And-Knowledge%20Pipeline-Managment-Cross-Platform-System-Flutter/build/reports/problems/problems-report.html
+[        ] FAILURE: Build failed 
+with an exception.
+[        ] * What went wrong:
+[        ] Execution failed for task 
+':app:compileFlutterBuildDebug'.
+[        ] > Process 'command 'C:\src
+\flutter_windows_3.7.7-stable\flutter
+\bin\flutter.bat'' finished with 
+non-zero exit value 1
+[        ] * Try:
+[        ] > Run with --debug option 
+to get more log output.
+[        ] > Run with --scan to get 
+full insights.
+[        ] > Get more help at 
+https://help.gradle.org.
+[        ] * Exception is:
+[        ] org.gradle.api.tasks.TaskE
+xecutionException: Execution failed 
+for task 
+':app:compileFlutterBuildDebug'.
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ExecuteActionsTaskE
+xecuter.lambda$executeIfValid$1(Execu
+teActionsTaskExecuter.java:130)
+[        ] 	at org.gradle.internal.Tr
+y$Failure.ifSuccessfulOrElse(Try.java
+:293)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ExecuteActionsTaskE
+xecuter.executeIfValid(ExecuteActions
+TaskExecuter.java:128)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ExecuteActionsTaskE
+xecuter.execute(ExecuteActionsTaskExe
+cuter.java:116)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ProblemsTaskPathTra
+ckingTaskExecuter.execute(ProblemsTas
+kPathTrackingTaskExecuter.java:41)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.FinalizePropertiesT
+askExecuter.execute(FinalizePropertie
+sTaskExecuter.java:46)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ResolveTaskExecutio
+nModeExecuter.execute(ResolveTaskExec
+utionModeExecuter.java:51)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.SkipTaskWithNoActio
+nsExecuter.execute(SkipTaskWithNoActi
+onsExecuter.java:57)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.SkipOnlyIfTaskExecu
+ter.execute(SkipOnlyIfTaskExecuter.ja
+va:74)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.CatchExceptionTaskE
+xecuter.execute(CatchExceptionTaskExe
+cuter.java:36)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter$1.executeTask(EventFiringTaskExe
+cuter.java:77)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter$1.call(EventFiringTaskExecuter.j
+ava:55)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter$1.call(EventFiringTaskExecuter.j
+ava:52)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+CallableBuildOperationWorker.execute(
+DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+CallableBuildOperationWorker.execute(
+DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:67)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:167)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+call(DefaultBuildOperationRunner.java
+:54)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter.execute(EventFiringTaskExecuter.
+java:52)
+[        ] 	at org.gradle.execution.p
+lan.LocalTaskNodeExecutor.execute(Loc
+alTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$In
+vokeNodeExecutorsAction.execute(Defau
+ltTaskExecutionGraph.java:331)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$In
+vokeNodeExecutorsAction.execute(Defau
+ltTaskExecutionGraph.java:318)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$Bu
+ildOperationAwareExecutionAction.lamb
+da$execute$0(DefaultTaskExecutionGrap
+h.java:314)
+[        ] 	at org.gradle.internal.op
+erations.CurrentBuildOperationRef.wit
+h(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$Bu
+ildOperationAwareExecutionAction.exec
+ute(DefaultTaskExecutionGraph.java:31
+4)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$Bu
+ildOperationAwareExecutionAction.exec
+ute(DefaultTaskExecutionGraph.java:30
+3)
+[        ] 	at org.gradle.execution.p
+lan.DefaultPlanExecutor$ExecutorWorke
+r.execute(DefaultPlanExecutor.java:45
+9)
+[        ] 	at org.gradle.execution.p
+lan.DefaultPlanExecutor$ExecutorWorke
+r.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.co
+ncurrent.ExecutorPolicy$CatchAndRecor
+dFailures.onExecute(ExecutorPolicy.ja
+va:64)
+[        ] 	at org.gradle.internal.co
+ncurrent.AbstractManagedExecutor$1.ru
+n(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.co
+ncurrent.ThreadPoolExecutor.runWorker
+(ThreadPoolExecutor.java:1136)
+[        ] 	at java.base/java.util.co
+ncurrent.ThreadPoolExecutor$Worker.ru
+n(ThreadPoolExecutor.java:635)
+[        ] 	at java.base/java.lang.Th
+read.run(Thread.java:842)
+[        ] Caused by: org.gradle.proc
+ess.internal.ExecException: Process 
+'command 'C:\src\flutter_windows_3.7.
+7-stable\flutter\bin\flutter.bat'' 
+finished with non-zero exit value 1
+[        ] 	at org.gradle.process.int
+ernal.DefaultExecHandle$ExecResultImp
+l.assertNormalExitValue(DefaultExecHa
+ndle.java:442)
+[        ] 	at org.gradle.process.int
+ernal.DefaultExecAction.execute(Defau
+ltExecAction.java:49)
+[        ] 	at org.gradle.process.int
+ernal.DefaultExecActionFactory.exec(D
+efaultExecActionFactory.java:216)
+[        ] 	at org.gradle.process.int
+ernal.DefaultExecOperations.exec(Defa
+ultExecOperations.java:37)
+[        ] 	at com.flutter.gradle.tas
+ks.BaseFlutterTaskHelper.buildBundle(
+BaseFlutterTaskHelper.kt:159)
+[        ] 	at com.flutter.gradle.tas
+ks.BaseFlutterTask.buildBundle(BaseFl
+utterTask.kt:143)
+[        ] 	at com.flutter.gradle.tas
+ks.FlutterTaskHelper.build$gradle(Flu
+tterTaskHelper.kt:90)
+[        ] 	at com.flutter.gradle.tas
+ks.FlutterTask.build(FlutterTask.kt:5
+1)
+[        ] 	at java.base/jdk.internal
+.reflect.NativeMethodAccessorImpl.inv
+oke0(Native Method)
+[        ] 	at java.base/jdk.internal
+.reflect.NativeMethodAccessorImpl.inv
+oke(NativeMethodAccessorImpl.java:77)
+[        ] 	at java.base/jdk.internal
+.reflect.DelegatingMethodAccessorImpl
+.invoke(DelegatingMethodAccessorImpl.
+java:43)
+[        ] 	at java.base/java.lang.re
+flect.Method.invoke(Method.java:568)
+[        ] 	at org.gradle.internal.re
+flect.JavaMethod.invoke(JavaMethod.ja
+va:125)
+[        ] 	at org.gradle.api.interna
+l.project.taskfactory.StandardTaskAct
+ion.doExecute(StandardTaskAction.java
+:58)
+[        ] 	at org.gradle.api.interna
+l.project.taskfactory.StandardTaskAct
+ion.execute(StandardTaskAction.java:5
+1)
+[        ] 	at org.gradle.api.interna
+l.project.taskfactory.StandardTaskAct
+ion.execute(StandardTaskAction.java:2
+9)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.TaskExecution$3.run
+(TaskExecution.java:244)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+1.execute(DefaultBuildOperationRunner
+.java:30)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+1.execute(DefaultBuildOperationRunner
+.java:27)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:67)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:167)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+run(DefaultBuildOperationRunner.java:
+48)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.TaskExecution.execu
+teAction(TaskExecution.java:229)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.TaskExecution.execu
+teActions(TaskExecution.java:212)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.TaskExecution.execu
+teWithPreviousOutputFiles(TaskExecuti
+on.java:195)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.TaskExecution.execu
+te(TaskExecution.java:162)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteStep.executeInte
+rnal(ExecuteStep.java:105)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteStep.access$000(
+ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteStep$1.call(Exec
+uteStep.java:59)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteStep$1.call(Exec
+uteStep.java:56)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+CallableBuildOperationWorker.execute(
+DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+CallableBuildOperationWorker.execute(
+DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:67)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:167)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+call(DefaultBuildOperationRunner.java
+:54)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteStep.execute(Exe
+cuteStep.java:56)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteStep.execute(Exe
+cuteStep.java:44)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.CancelExecutionStep.exe
+cute(CancelExecutionStep.java:42)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.TimeoutStep.executeWith
+outTimeout(TimeoutStep.java:75)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.TimeoutStep.execute(Tim
+eoutStep.java:55)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.PreCreateOutputParentsS
+tep.execute(PreCreateOutputParentsSte
+p.java:50)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.PreCreateOutputParentsS
+tep.execute(PreCreateOutputParentsSte
+p.java:28)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.RemovePreviousOutputsSt
+ep.execute(RemovePreviousOutputsStep.
+java:67)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.RemovePreviousOutputsSt
+ep.execute(RemovePreviousOutputsStep.
+java:37)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.BroadcastChangingOutput
+sStep.execute(BroadcastChangingOutput
+sStep.java:61)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.BroadcastChangingOutput
+sStep.execute(BroadcastChangingOutput
+sStep.java:26)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.CaptureOutputsAfterExec
+utionStep.execute(CaptureOutputsAfter
+ExecutionStep.java:69)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.CaptureOutputsAfterExec
+utionStep.execute(CaptureOutputsAfter
+ExecutionStep.java:46)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ResolveInputChangesStep
+.execute(ResolveInputChangesStep.java
+:40)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ResolveInputChangesStep
+.execute(ResolveInputChangesStep.java
+:29)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.BuildCacheStep.executeW
+ithoutCache(BuildCacheStep.java:189)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.BuildCacheStep.lambda$e
+xecute$1(BuildCacheStep.java:75)
+[        ] 	at org.gradle.internal.Ei
+ther$Right.fold(Either.java:175)
+[        ] 	at org.gradle.internal.ex
+ecution.caching.CachingState.fold(Cac
+hingState.java:62)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.BuildCacheStep.execute(
+BuildCacheStep.java:73)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.BuildCacheStep.execute(
+BuildCacheStep.java:48)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.StoreExecutionStateStep
+.execute(StoreExecutionStateStep.java
+:46)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.StoreExecutionStateStep
+.execute(StoreExecutionStateStep.java
+:35)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.SkipUpToDateStep.execut
+eBecause(SkipUpToDateStep.java:75)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.SkipUpToDateStep.lambda
+$execute$2(SkipUpToDateStep.java:53)
+[        ] 	at java.base/java.util.Op
+tional.orElseGet(Optional.java:364)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.SkipUpToDateStep.execut
+e(SkipUpToDateStep.java:53)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.SkipUpToDateStep.execut
+e(SkipUpToDateStep.java:35)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.legacy.MarkSnapshotting
+InputsFinishedStep.execute(MarkSnapsh
+ottingInputsFinishedStep.java:37)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.legacy.MarkSnapshotting
+InputsFinishedStep.execute(MarkSnapsh
+ottingInputsFinishedStep.java:27)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ResolveIncrementalCachi
+ngStateStep.executeDelegate(ResolveIn
+crementalCachingStateStep.java:49)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ResolveIncrementalCachi
+ngStateStep.executeDelegate(ResolveIn
+crementalCachingStateStep.java:27)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AbstractResolveCachingS
+tateStep.execute(AbstractResolveCachi
+ngStateStep.java:71)
+[  +25 ms] 	at org.gradle.internal.ex
+ecution.steps.AbstractResolveCachingS
+tateStep.execute(AbstractResolveCachi
+ngStateStep.java:39)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ResolveChangesStep.exec
+ute(ResolveChangesStep.java:65)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ResolveChangesStep.exec
+ute(ResolveChangesStep.java:36)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ValidateStep.execute(Va
+lidateStep.java:107)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ValidateStep.execute(Va
+lidateStep.java:56)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AbstractCaptureStateBef
+oreExecutionStep.execute(AbstractCapt
+ureStateBeforeExecutionStep.java:64)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AbstractCaptureStateBef
+oreExecutionStep.execute(AbstractCapt
+ureStateBeforeExecutionStep.java:43)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AbstractSkipEmptyWorkSt
+ep.executeWithNonEmptySources(Abstrac
+tSkipEmptyWorkStep.java:125)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AbstractSkipEmptyWorkSt
+ep.execute(AbstractSkipEmptyWorkStep.
+java:56)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AbstractSkipEmptyWorkSt
+ep.execute(AbstractSkipEmptyWorkStep.
+java:36)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.legacy.MarkSnapshotting
+InputsStartedStep.execute(MarkSnapsho
+ttingInputsStartedStep.java:38)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.LoadPreviousExecutionSt
+ateStep.execute(LoadPreviousExecution
+StateStep.java:36)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.LoadPreviousExecutionSt
+ateStep.execute(LoadPreviousExecution
+StateStep.java:23)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.HandleStaleOutputsStep.
+execute(HandleStaleOutputsStep.java:7
+5)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.HandleStaleOutputsStep.
+execute(HandleStaleOutputsStep.java:4
+1)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AssignMutableWorkspaceS
+tep.lambda$execute$0(AssignMutableWor
+kspaceStep.java:35)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.TaskExecution$4.wit
+hWorkspace(TaskExecution.java:289)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AssignMutableWorkspaceS
+tep.execute(AssignMutableWorkspaceSte
+p.java:31)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.AssignMutableWorkspaceS
+tep.execute(AssignMutableWorkspaceSte
+p.java:22)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ChoosePipelineStep.exec
+ute(ChoosePipelineStep.java:40)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ChoosePipelineStep.exec
+ute(ChoosePipelineStep.java:23)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteWorkBuildOperati
+onFiringStep.lambda$execute$2(Execute
+WorkBuildOperationFiringStep.java:67)
+[        ] 	at java.base/java.util.Op
+tional.orElseGet(Optional.java:364)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteWorkBuildOperati
+onFiringStep.execute(ExecuteWorkBuild
+OperationFiringStep.java:67)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.ExecuteWorkBuildOperati
+onFiringStep.execute(ExecuteWorkBuild
+OperationFiringStep.java:39)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.IdentityCacheStep.execu
+te(IdentityCacheStep.java:46)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.IdentityCacheStep.execu
+te(IdentityCacheStep.java:34)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.IdentifyStep.execute(Id
+entifyStep.java:48)
+[        ] 	at org.gradle.internal.ex
+ecution.steps.IdentifyStep.execute(Id
+entifyStep.java:35)
+[        ] 	at org.gradle.internal.ex
+ecution.impl.DefaultExecutionEngine$1
+.execute(DefaultExecutionEngine.java:
+64)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ExecuteActionsTaskE
+xecuter.executeIfValid(ExecuteActions
+TaskExecuter.java:127)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ExecuteActionsTaskE
+xecuter.execute(ExecuteActionsTaskExe
+cuter.java:116)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ProblemsTaskPathTra
+ckingTaskExecuter.execute(ProblemsTas
+kPathTrackingTaskExecuter.java:41)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.FinalizePropertiesT
+askExecuter.execute(FinalizePropertie
+sTaskExecuter.java:46)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.ResolveTaskExecutio
+nModeExecuter.execute(ResolveTaskExec
+utionModeExecuter.java:51)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.SkipTaskWithNoActio
+nsExecuter.execute(SkipTaskWithNoActi
+onsExecuter.java:57)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.SkipOnlyIfTaskExecu
+ter.execute(SkipOnlyIfTaskExecuter.ja
+va:74)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.CatchExceptionTaskE
+xecuter.execute(CatchExceptionTaskExe
+cuter.java:36)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter$1.executeTask(EventFiringTaskExe
+cuter.java:77)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter$1.call(EventFiringTaskExecuter.j
+ava:55)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter$1.call(EventFiringTaskExecuter.j
+ava:52)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+CallableBuildOperationWorker.execute(
+DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+CallableBuildOperationWorker.execute(
+DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:67)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner$
+2.execute(DefaultBuildOperationRunner
+.java:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:167)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+execute(DefaultBuildOperationRunner.j
+ava:60)
+[        ] 	at org.gradle.internal.op
+erations.DefaultBuildOperationRunner.
+call(DefaultBuildOperationRunner.java
+:54)
+[        ] 	at org.gradle.api.interna
+l.tasks.execution.EventFiringTaskExec
+uter.execute(EventFiringTaskExecuter.
+java:52)
+[        ] 	at org.gradle.execution.p
+lan.LocalTaskNodeExecutor.execute(Loc
+alTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$In
+vokeNodeExecutorsAction.execute(Defau
+ltTaskExecutionGraph.java:331)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$In
+vokeNodeExecutorsAction.execute(Defau
+ltTaskExecutionGraph.java:318)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$Bu
+ildOperationAwareExecutionAction.lamb
+da$execute$0(DefaultTaskExecutionGrap
+h.java:314)
+[        ] 	at org.gradle.internal.op
+erations.CurrentBuildOperationRef.wit
+h(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$Bu
+ildOperationAwareExecutionAction.exec
+ute(DefaultTaskExecutionGraph.java:31
+4)
+[        ] 	at org.gradle.execution.t
+askgraph.DefaultTaskExecutionGraph$Bu
+ildOperationAwareExecutionAction.exec
+ute(DefaultTaskExecutionGraph.java:30
+3)
+[        ] 	at org.gradle.execution.p
+lan.DefaultPlanExecutor$ExecutorWorke
+r.execute(DefaultPlanExecutor.java:45
+9)
+[        ] 	at org.gradle.execution.p
+lan.DefaultPlanExecutor$ExecutorWorke
+r.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.co
+ncurrent.ExecutorPolicy$CatchAndRecor
+dFailures.onExecute(ExecutorPolicy.ja
+va:64)
+[        ] 	at org.gradle.internal.co
+ncurrent.AbstractManagedExecutor$1.ru
+n(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.co
+ncurrent.ThreadPoolExecutor.runWorker
+(ThreadPoolExecutor.java:1136)
+[        ] 	at java.base/java.util.co
+ncurrent.ThreadPoolExecutor$Worker.ru
+n(ThreadPoolExecutor.java:635)
+[        ] 	at java.base/java.lang.Th
+read.run(Thread.java:842)
+[        ] BUILD FAILED in 22s
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 6 actionable tasks: 2 executed, 4 up-to-date
+[        ] Watched directory hierarchies: [C:\src\flutter_windows_3.7.7-stable\flutter\packages\flutter_tools\gradle]
+[ +309 ms] Running Gradle task 'assembleDebug'... (completed in 23.0s)
+[ +121 ms] Error: Gradle task 
+assembleDebug failed with exit code 1
+[   +3 ms] "flutter run" took 26,639ms.
+[ +159 ms] 
+           #0      throwToolExit (pac
+kage:flutter_tools/src/base/common.da
+rt:34:3)
+           #1      
+RunCommand.runCommand (package:flutte
+r_tools/src/commands/run.dart:897:9)
+           <asynchronous suspension>
+           #2      
+FlutterCommand.run.<anonymous 
+closure> (package:flutter_tools/src/r
+unner/flutter_command.dart:1559:27)
+           <asynchronous suspension>
+           #3      
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+           <asynchronous suspension>
+           #4      
+CommandRunner.runCommand (package:arg
+s/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #5      FlutterCommandRunn
+er.runCommand.<anonymous closure> (pa
+ckage:flutter_tools/src/runner/flutte
+r_command_runner.dart:487:9)
+           <asynchronous suspension>
+           #6      
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+           <asynchronous suspension>
+           #7      
+FlutterCommandRunner.runCommand (pack
+age:flutter_tools/src/runner/flutter_
+command_runner.dart:422:5)
+           <asynchronous suspension>
+           #8      run.<anonymous 
+closure>.<anonymous closure> (package
+:flutter_tools/runner.dart:104:11)
+           <asynchronous suspension>
+           #9      
+AppContext.run.<anonymous closure> (p
+ackage:flutter_tools/src/base/context
+.dart:154:19)
+           <asynchronous suspension>
+           #10     main (package:flut
+ter_tools/executable.dart:103:3)
+           <asynchronous suspension>
+
+
+[        ] Running 3 shutdown hooks
+[  +15 ms] Shutdown hooks complete
+[ +146 ms] exiting with code 1
