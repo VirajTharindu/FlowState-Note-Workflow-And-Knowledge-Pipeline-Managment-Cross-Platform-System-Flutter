@@ -2,6 +2,8 @@
 
 This document describes the technical architecture of FlowState in detail, intended for developers who want to understand or contribute to the system.
 
+FlowState uses a **Feature-First, Layered, Modular, Decoupled, Monorepo(Fullstack Workspace) Architecture** combined with the **Repository Pattern** for database independence.
+
 ---
 
 ## 1. The First Principle: Device = Context
