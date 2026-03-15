@@ -37,7 +37,6 @@ The system gives every device a specific, intentional job in a structured workfl
 | 🗺️ **Knowledge Graph** | Dijkstra's algorithm finds the shortest conceptual path between any two linked notes. |
 | 🎯 **Note Pipeline States** | Notes progress through `Raw → Processing → Library`, gating what each platform sees. |
 | 🎨 **Vibrant Dark Theme/ Light Theme** | Rose-to-Indigo gradient design system with Google Fonts (Outfit + Inter) and micro-animations. |
-| ☁️ **MongoDB-Ready Architecture** | Repository Pattern cleanly separates the data layer — ready for MongoDB Atlas cloud sync in Phase 2. |
 
 ---
 
@@ -45,17 +44,19 @@ The system gives every device a specific, intentional job in a structured workfl
 
 The following resources demonstrate FlowState's behavior in detail:
 
+- 📹 [Product Demo](#-product-demo) — Video demo of the complete workflow
 - 📸 [Screenshots](#-screenshots) — Mobile, Desktop, and Web views
 - ⚙️ [Architecture Overview](#️-architecture-overview) — System design and project structure
 - 🧠 [Engineering Decisions](#-engineering-decisions) — Key technical trade-offs
 - 🔧 [Design Decisions](#-design-decisions) — UX and visual design rationale
 - 🗺️ [Roadmap](#️-roadmap) — Current feature status and upcoming phases
+- 🚀 [Future Improvements](#-future-improvements) — Planned features and enhancements
 - 📄 [Documentation](#-documentation) — Full extended docs in `/docs`
 - 📩 [Contact](#-contact) — Get in touch
 
 ---
 
-## 📹 Product Walkthrough
+## 📹 Product Demo
 
 *A comprehensive video or GIF walkthrough demonstrating the adaptive UX, Algorithm Engine, and core pipeline workflow is coming soon.*
 
@@ -89,9 +90,7 @@ The following resources demonstrate FlowState's behavior in detail:
 
 ## ⚙️ Architecture Overview
 
-FlowState uses a **Feature-First Layered Architecture** combined with the **Repository Pattern** for database independence.
-
-The folder structure is intentionally split to decouple pure Dart logic (algorithms/data structures) from Flutter UI components, organized by feature.
+FlowState uses a **Feature-First, Layered, Modular, Decoupled(folders), Monorepo(Fullstack Workspace) Architecture** combined with the **Repository Pattern** for database independence.
 
 ### Layered Responsibilities
 - **Presentation Layer (`views/`)** — Renders UI, listens to Riverpod streams. No business logic.
@@ -117,7 +116,7 @@ The folder structure is intentionally split to decouple pure Dart logic (algorit
 - **FlowLinkedList** — Doubly linked list for O(1) insert/remove in the capture stream.
 
 ### State Management
-Riverpod 2.x with typed providers — `StreamProvider` wraps Isar's reactive watch streams, delivering real-time UI updates without manual refresh.
+Riverpod 2.x with typed providers 
 
 > ⚠️ **Temporary Databases**: Isar Community DB (native) and an in-memory web repository.
 > **MongoDB Atlas** will replace both in Phase 2 as the single cloud source of truth.
@@ -191,7 +190,6 @@ A summary of the key UX and visual design decisions that shaped each view:
 | [ENGINEERING_DECISIONS.md](docs/ENGINEERING_DECISIONS.md) | 8 key engineering trade-offs with detailed reasoning and outcomes |
 | [DESIGN_DECISIONS.md](docs/DESIGN_DECISIONS.md) | 8 UX and visual design decisions — from theme rationale to interaction patterns |
 | [ROADMAP.md](docs/ROADMAP.md) | Phased feature roadmap — Phase 1 (done), Phase 2 (MongoDB Atlas), Phase 3 (AI) |
-| [CONTRIBUTING.md](docs/CONTRIBUTING.md) | Developer conventions, directory rules, and pipeline integrity contract |
 
 ---
 
